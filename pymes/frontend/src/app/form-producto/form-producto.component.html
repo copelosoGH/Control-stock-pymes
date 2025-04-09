@@ -1,0 +1,9 @@
+<form [formGroup]="form" (ngSubmit)="guardar()">
+    <label>Nombre: <input formControlName="nombre"></label><br>
+    <label>Categoría: <input formControlName="categoria"></label><br>
+    <label>Color: <input formControlName="color"></label><br>
+    <label>Talle: <input formControlName="talle"></label><br>
+    <label>Stock inicial: <input type="number" formControlName="stockActual"></label><br>
+    <button type="submit">Guardar</button>
+  </form>
+  
